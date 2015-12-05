@@ -22,7 +22,7 @@ def bayes_post(pri_prob,x):
 		numerator = pri_prob * (1 - theta)
 	else:
 		pass
-	post_prob = numerator / numerator.sum();
+	post_prob = numerator / numerator.sum()
 	return post_prob
 
 #データの数だけベイズ更新
