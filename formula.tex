@@ -4,7 +4,7 @@
 
 \begin{eqnarray*}
 	P(\omega_{i} | X^{(n)}) &=& \frac{P(x_{n}|\omega_{i})}{\sum_{j=1}^{3}P(\omega_{j}|X^{(n-1)})P(x_{n}|\omega_{j})}\cdot P(\omega_{i}|X^{(n-1)}) & (i=1,2,3) \\
-													&=& \frac{P(x_{n}|\omega_{i})}{P(\omega_{1}|X^{(n-1)})P(x_{n}|\omega_{1})P(\omega_{2}|X^{(n-1)})P(x_{n}|\omega_{2})P(\omega_{3}|X^{(n-1)})P(x_{n}|\omega_{3}) }\cdot P(\omega_{i}|X^{(n-1)}) \\ \\
+													&=& \frac{P(x_{n}|\omega_{i})}{P(\omega_{1}|X^{(n-1)})P(x_{n}|\omega_{1})+P(\omega_{2}|X^{(n-1)})P(x_{n}|\omega_{2})+P(\omega_{3}|X^{(n-1)})P(x_{n}|\omega_{3}) }\cdot P(\omega_{i}|X^{(n-1)}) \\ \\
 	P(x_{n}|\omega_{i}) &=& \left\{
 		\begin{array}{ll}
 			\theta_{i} & (x_{n} = H) \\
